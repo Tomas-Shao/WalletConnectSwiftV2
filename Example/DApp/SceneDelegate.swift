@@ -97,11 +97,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         )
 
         let metadata = AppMetadata(
-            name: "Swift Dapp",
+            name: "Beagle",
             description: "WalletConnect DApp sample",
-            url: "https://lab.web3modal.com/dapp",
+            url: "https://beagle.chat",
             icons: ["https://avatars.githubusercontent.com/u/37784886"],
-            redirect: try! AppMetadata.Redirect(native: "wcdapp://", universal: "https://lab.web3modal.com/dapp", linkMode: true)
+            redirect: try! AppMetadata.Redirect(native: "wcdapp://", universal: "https://beagle.chat", linkMode: true)
         )
 
         Web3Modal.configure(
