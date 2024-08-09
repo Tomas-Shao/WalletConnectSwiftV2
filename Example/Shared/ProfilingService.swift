@@ -54,6 +54,6 @@ final class ProfilingService {
     }
 
     func send(logMessage: LogMessage) {
-        Mixpanel.mainInstance().track(event: logMessage.message, properties: logMessage.properties)
+        // Mixpanel.mainInstance().track(event: logMessage.message, properties: logMessage.properties)
     }
 }

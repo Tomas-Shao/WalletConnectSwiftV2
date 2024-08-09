@@ -10,7 +10,7 @@ final class ConfigurationService {
 
     func configure(importAccount: ImportAccount) {
         Networking.configure(
-            groupIdentifier: "group.com.walletconnect.sdk",
+            groupIdentifier: "group.chat.beagle.meeting",
             projectId: InputConfig.projectId,
             socketFactory: DefaultSocketFactory()
         )

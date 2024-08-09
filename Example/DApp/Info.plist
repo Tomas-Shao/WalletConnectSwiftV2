@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>MIXPANEL_TOKEN</key>
-	<string>$(MIXPANEL_TOKEN)</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -11,7 +9,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>wcdapp</string>
+				<string>beagle</string>
 			</array>
 		</dict>
 	</array>
@@ -26,6 +24,8 @@
 		<string>rainbow</string>
 		<string>spot</string>
 	</array>
+	<key>MIXPANEL_TOKEN</key>
+	<string>$(MIXPANEL_TOKEN)</string>
 	<key>PROJECT_ID</key>
 	<string>$(PROJECT_ID)</string>
 	<key>UIApplicationSceneManifest</key>

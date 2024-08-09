@@ -2,5 +2,5 @@
 import Foundation
 
 enum Constants {
-    static let groupIdentifier = "group.com.walletconnect.dapp"
+    static let groupIdentifier = "group.chat.beagle.meeting"
 }
